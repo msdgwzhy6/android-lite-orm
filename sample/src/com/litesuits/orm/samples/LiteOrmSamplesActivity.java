@@ -2,14 +2,18 @@ package com.litesuits.orm.samples;
 
 import android.os.Bundle;
 import android.view.Menu;
+
 import com.litesuits.android.log.Log;
 import com.litesuits.orm.LiteOrm;
-import com.litesuits.orm.R;
 import com.litesuits.orm.db.DataBase;
 import com.litesuits.orm.db.assit.QueryBuilder;
 import com.litesuits.orm.db.model.ColumnsValue;
 import com.litesuits.orm.db.model.ConflictAlgorithm;
-import com.litesuits.orm.model.*;
+import com.litesuits.orm.model.Address;
+import com.litesuits.orm.model.Company;
+import com.litesuits.orm.model.Man;
+import com.litesuits.orm.model.Teacher;
+import com.litesuits.orm.model.Wife;
 
 import java.util.ArrayList;
 import java.util.Date;
