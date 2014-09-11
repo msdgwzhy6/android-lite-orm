@@ -35,6 +35,7 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.litesuits.base:base:1.0.0@aar'
 }
 
 def home = "$System.env.HOME"//用户目录

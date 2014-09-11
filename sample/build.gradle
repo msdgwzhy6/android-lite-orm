@@ -29,7 +29,13 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.litesuits.orm:orm:1.0.0@aar'
+    compile 'com.litesuits.base:base:1.0.0@aar'
+    compile ('com.litesuits.orm:orm:1.0.0@aar'){
+        exclude group: 'com.litesuits.android.async'
+        exclude group: 'com.litesuits'
+
+        transitive = false
+    }
 //    compile files('../android-aar/android-lite-orm.aar')
 //    compile project(':library')
 //    compile 'com.google.code.gson:gson:2.2.4'
